@@ -47,8 +47,11 @@
 <div class="header" id="home1">
     <div class="container">
         @if(Auth::check())
-            <div class="w3l_login">
+            <div class="w3l_login mr-2">
                 <a href="/" data-target="#myModal88"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
+            </div>
+            <div class="w3l_login">
+                <a href="/signout" ><span class="glyphicon glyphicon-log-out" aria-hidden="true"></span></a>
             </div>
         @else
             <div class="w3l_login">
